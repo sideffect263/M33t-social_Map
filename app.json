@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "meet",
-    "slug": "meet",
-    "version": "1.0.0",
+    "name": "M33t",
+    "slug": "M33t",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icons/rsz_logo_icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/icons/rsz_logo_icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,10 +16,13 @@
       "supportsTablet": true
     },
     "android": {
+      "softwareKeyboardLayoutMode": "pan",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/icons/rsz_logo_icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ariel263.myFirends",
+      "versionCode": 2
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +34,20 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9f3ff5fb-71d8-4124-b7fc-8473a923a43c"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9f3ff5fb-71d8-4124-b7fc-8473a923a43c"
     }
   }
 }
