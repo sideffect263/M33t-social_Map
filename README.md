@@ -19,8 +19,7 @@ The **M33t Social Map** project aims to provide a platform for users to interact
 - 📱 **Responsive Design**: Ensures compatibility across different devices and screen sizes.
 - 🗣️ **Social Features**: Allows users to connect and interact with each other based on location.
 - 🗓️ **Event Management**: Users can add events to the map that others can see.
-
-#more to come
+- 🥳 **More To Come**: We are working on new and exciting features like chat messaging💬 and mood setting😁
 
 
 ## Installation
